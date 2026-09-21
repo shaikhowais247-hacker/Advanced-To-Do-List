@@ -13,7 +13,7 @@ while True:
     # Add Task
     if choice == "1":
         task = input("Enter your task: ")
-        tasks.append({"": task, "completed": False})
+        tasks.append({"task": task, "completed": False})
         print("Task added successfully!")
 
     # View Tasks
