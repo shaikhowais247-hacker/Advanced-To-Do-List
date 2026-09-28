@@ -1,94 +1,129 @@
-# 📝 Advanced To-Do List
+# 🚀 TaskFlow — Advanced To-Do List
 
-An interactive To-Do List application designed to help users efficiently manage their daily tasks. The project provides a simple and user-friendly interface for adding, viewing, completing, and deleting tasks.
+A modern, professional, and responsive **Advanced To-Do List web application** designed to help users organize, manage, and track their daily tasks efficiently.
 
-## 🚀 Features
+TaskFlow provides a clean SaaS-style interface with task management, priorities, due dates, progress tracking, search, filtering, profile settings, and browser-based data storage.
 
-* ➕ Add new tasks
-* 📋 View all tasks
-* ✅ Mark tasks as completed
-* 🗑️ Delete tasks
-* 💾 Store tasks using browser Local Storage
-* 📊 Display total, completed, and pending tasks
-* 📱 Responsive and user-friendly interface
-* 🚪 Exit option
+---
 
-## 🛠️ Technologies Used
+## 🌐 Live Website
 
-* **HTML** – Structure of the website
-* **CSS** – Styling and responsive design
-* **JavaScript** – Task management and functionality
-* **Local Storage** – Saving tasks in the browser
-* **GitHub** – Source code management and version control
-* **Render** – Website deployment
+🔗 **Live Demo:**  
+https://advanced-to-do-list.onrender.com
 
-## 📂 Project Structure
+🔗 **GitHub Repository:**  
+https://github.com/shaikhowais247-hacker/Advanced-To-Do-List
+
+---
+
+## 📌 Project Overview
+
+TaskFlow is an advanced task management application developed as a web-based project.
+
+The application allows users to:
+
+- Add new tasks
+- View existing tasks
+- Edit tasks
+- Mark tasks as completed
+- Delete tasks
+- Set task priorities
+- Add due dates
+- Search tasks
+- Filter tasks
+- Track task completion progress
+- Manage profile information
+- Store tasks using browser LocalStorage
+
+The project focuses on combining **functionality, simplicity, responsiveness, and modern UI design**.
+
+---
+
+## ✨ Features
+
+### 🔐 Login System
+- Modern login interface
+- Demo user login
+- User information stored using LocalStorage
+- Logout functionality
+
+### 📊 Dashboard
+- Total tasks
+- Completed tasks
+- Pending tasks
+- High-priority tasks
+- Completion percentage
+- Recent tasks overview
+- Progress tracking
+
+### 📝 Task Management
+Users can:
+
+- ➕ Add tasks
+- 👁️ View tasks
+- ✏️ Edit tasks
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks
+- 📅 Set due dates
+- 🔥 Set task priority
+- 📄 Add task descriptions
+
+### 🔎 Search & Filtering
+Tasks can be searched and filtered using:
+
+- Task name
+- All tasks
+- Pending tasks
+- Completed tasks
+- Priority levels
+
+### 👤 Profile & Settings
+- View user profile
+- Update profile information
+- Manage application preferences
+- Delete all tasks
+- Logout
+
+### 💾 LocalStorage
+Task and user data are stored in the browser using **JavaScript LocalStorage**, allowing the data to remain available after refreshing the page.
+
+### 📱 Responsive Design
+The website is designed to work on:
+
+- 💻 Desktop
+- 💻 Laptop
+- 📱 Mobile
+- 📱 Tablet
+
+---
+
+## 🎨 Design
+
+TaskFlow uses a modern SaaS-style design with:
+
+- Clean user interface
+- Gradient backgrounds
+- Modern cards
+- Smooth transitions
+- Responsive layouts
+- Professional typography
+- Task status indicators
+- Priority indicators
+- Dashboard statistics
+
+---
+
+## 🗂️ Project Structure
 
 ```text
 Advanced-To-Do-List/
 │
-├── index.html
-├── README.md
-└── [other project files]
-```
-
-## ▶️ How to Run
-
-### Run Locally
-
-1. Download or clone this repository.
-2. Open the project folder in VS Code.
-3. Open `index.html` in a web browser.
-4. Start adding and managing your tasks.
-
-### Clone Using Git
-
-```bash
-git clone https://github.com/shaikhowais247-hacker/Advanced-To-Do-List.git
-```
-
-Then open the project folder in VS Code.
-
-## 🌐 Live Demo
-
-The project can be deployed using **Render** as a Static Site.
-
-**GitHub Repository:**
-https://github.com/shaikhowais247-hacker/Advanced-To-Do-List
-
-**Live Website:**
-*Add your Render URL here after deployment.*
-
-## 💡 How It Works
-
-The user enters a task and clicks **Add Task**. The task is displayed in the task list. Users can mark a task as completed using the checkbox or delete it using the Delete button.
-
-The application uses JavaScript to manage the tasks and browser Local Storage to preserve the task data even after refreshing the page.
-
-## 🎯 Objectives
-
-* To develop a simple task-management application.
-* To understand basic web development concepts.
-* To implement JavaScript-based user interaction.
-* To practice storing data using Local Storage.
-* To create a responsive and user-friendly interface.
-
-## 🔮 Future Scope
-
-The project can be improved in the future by adding:
-
-* User login and registration
-* Task deadlines and reminders
-* Task categories and priorities
-* Search and filter options
-* Cloud database storage
-* Dark mode
-* Notifications
-* Mobile application support
-
-## 👨‍💻 Author
-
-**Owais Shaikh**
-
-GitHub:
-https://github.com/shaikhowais247
+├── index.html          # Login page
+├── home.html           # Dashboard
+├── tasks.html          # Task management page
+├── profile.html        # Profile and settings
+│
+├── style.css           # Website styling
+├── app.js              # Application logic
+│
+└── README.md           # Project documentation
